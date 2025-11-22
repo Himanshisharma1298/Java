@@ -1,0 +1,102 @@
+// Q1.
+//public class Calculator {
+//        public static void addNumbers() {
+//            int x = 35;
+//            int y = 45;
+//            int sum = x + y;
+//            System.out.println("sum = " + sum);
+//        }
+//        public static void main(String[] args){
+//            Calculator g = new Calculator();
+//            g.addNumbers();
+//        }
+//}
+
+// Q2.
+//import java.util.*;
+//public class Factorial {
+//    public static void Factorial(int n){
+//        if(n < 0){
+//            System.out.println("invalid Number");
+//            return;
+//        }
+//        int factorial = 1;
+//        for(int i = n; i >= 1; i--){
+//            factorial = factorial * i;
+//        }
+//        System.out.println(factorial);
+//        return;
+//    }
+//    public static void main(String[] args){
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        Factorial(n);
+//    }
+//}
+
+// Q3.
+import java.util.*;
+//public class Function {
+//    public static void PrintMyName(String name){
+//        System.out.println(name);
+//        return;
+//    }
+//    public static void main(String args[]){
+//        Scanner sc = new Scanner(System.in);
+//        String name = sc.next();
+//        PrintMyName(name);
+//    }
+//}
+
+// Q4.
+//public class SimpleInterest {
+//    public void calculatorInterest(){
+//        double principal = 1000;
+//        double time = 2;
+//        double rate = 5;
+//        double SimpleInterest = (principal * time * rate)/100;
+//        System.out.println("SI=" + SimpleInterest);
+//    }
+//    public static void main(String[] args){
+//        SimpleInterest g = new SimpleInterest();
+//        g.calculatorInterest();
+//    }
+//}
+
+//Q5.
+//public class studentInfo {
+//    public void displayInfo(){
+//        System.out.println("Name: Aman Sharma");
+//        System.out.println("Age: 16");
+//        System.out.println("Grade: 10th");
+//    }
+//    public static void main(String[] args){
+//        studentInfo g = new studentInfo();
+//        g.displayInfo();
+//    }
+//}
+
+//Q6.
+//public class Circle {
+//    public void calculatorarea(){
+//        double radius = 7;
+//        double pi = 3.14;
+//        double area = pi * radius * radius;
+//        System.out.println("area=" +  area);
+//    }
+//    public static void main(String[] args){
+//        Circle g = new Circle();
+//        g.calculatorarea();
+//    }
+//}
+
+// Q7.
+public class Greeting {
+//    public void say(String name) {
+//        System.out.println("Hello, " + name + "! Welcome to java programming.");
+//    }
+//    public static void main(String[] args){
+//        Greeting g = new Greeting();
+//        g.say("Himanshi");
+//    }
+//}
