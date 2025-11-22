@@ -1,0 +1,217 @@
+//import java.sql.SQLOutput;
+//import java.util.Scanner;
+//import java.lang.Math;
+//public class first {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+
+        //EVEN AND ODD
+//        int n = sc.nextInt();
+//        System.out.println("even : ");
+//        for (int i = 1;i<=n;i++){
+//          if(i % 2 == 0){
+//              System.out.print(i+" ");
+//          }
+//        }
+//        System.out.println(" ");
+//        System.out.println("odd : ");
+//        for (int i = 1;i<=n;i++){
+//            if(i % 2 != 0){
+//                System.out.print(i+" ");
+//            }
+//        }
+//
+        //print 1 t0 N number
+//          int n = sc.nextInt();
+//          for (int i = 1; i <= n; i++){
+//              System.out.println(i);
+//        }
+
+        //sum of N natural number
+//          int n = sc.nextInt();
+//          int sum = 0;
+//          for (int i = 1; i <= n; i++){
+//              sum += i;
+//          }
+//          System.out.println(sum);
+
+        //product of N number
+//            int n = sc.nextInt();
+//            int product = 1;
+//            for(int i = 1; i <= n; i++){
+//                product *= i;
+//            }
+//            System.out.println(product);
+
+//      //multiplication
+//             int a = sc.nextInt();
+//             for(int i=1;i<=10;i++){
+//             System.out.println(a+" * "+i+" = "+a*i);
+//            }
+
+        //fibonacci series
+//              int n = sc.nextInt();
+//              int a = 0;
+//              int b = 1;
+//              int c;
+//              System.out.println(a + " " + b);
+//              for(int i = 0; i <= n; ++i) {
+//                  c = a + b;
+//                  System.out.print(c + " ");
+//                  a = b;
+//                  b = c;
+//              }
+
+        // Reversed number
+//               int n = sc.nextInt();
+//               int digit ;
+//               int reversed = 0;
+//               while(n!=0){
+//                   digit = n%10;
+//                   reversed =  reversed *10 + digit ;
+//                   n = n/10;
+//               }
+//               System.out.println(reversed);
+
+        //palindrome number
+//                int n = sc.nextInt();
+//                 int temp = n;
+//                 int reversed = 0;
+//                 while (n > 0){
+//                     int r = n % 10;
+//                     reversed = reversed * 10 + r;
+//                     n = n / 10;
+//                 }
+//                 if (temp == reversed){
+//                     System.out.println(temp + "is a palindrome");
+//                 }else{
+//                     System.out.println(temp + "is not a palindrome");
+//                 }
+
+        //armstrong number
+//                   int n = sc.nextInt();
+//                   int r1, r2, count = 0, check = n, arm = 0;
+//                   int temp = n;
+//                   while (n != 0) {
+//                      r1 = (n % 10);
+//                      count++;
+//                      n = n / 10;
+//                   }
+//                   while(temp != 0){
+//                       r2 = temp % 10;
+//                       arm += Math.pow(r2,count);
+//                       temp = temp/10;
+//                   }
+//                   if (arm == check) {
+//                       System.out.println("is armstrong");
+//                     }else{
+//                         System.out.println("not an armstrong");
+//                     }
+
+        //count digits
+//                    int n = sc.nextInt();
+//                    int r1;
+//                    int count = 0;
+//                    while(n != 0){
+//                        r1 = n%10;
+//                        count++;
+//                        n = n/10;
+//                    }
+//                    System.out.println(count);
+
+        //count digits
+//                      int n = sc.nextInt();
+//                      int count = 0;
+//                      for(int i = 1; i <= n; i++){
+//                          n % i == 0;
+//                          count++;
+//                      }if(n % 2 == 0 ){
+//            System.out.println(n);
+//        }else{
+//            System.out.println(count);
+//        }
+//
+        //prime number
+//                    int n = sc.nextInt(); // n is range
+//                    for(int i = 2;i<=n;i++){
+//                    int count = 0;
+//                    for(int j = 1;j<=i;j++){
+//                        if(i%j == 0){
+//                           count++;
+//                       }
+//                    }
+//                    if (count == 2){
+//                        System.out.print(i);
+//                      }
+//                    }
+
+        //reverse number from n to 1
+//                     int n = sc.nextInt();
+//                     while(n >= 1){
+//                         System.out.println(n);
+//                         n--;
+//                     }
+
+        //even number 1 to 100
+//                       int n = sc.nextInt();
+//                       while(n < 100) {
+//                           if(n % 2 == 0){
+//                               System.out.println(n);
+//                           }
+//                           n++;
+//                       }
+
+        //odd number 1 to 100
+//                         int n = sc.nextInt();
+//                         while(n < 100){
+//                             if(n % 2 != 0){
+//                                 System.out.println(n);
+//                             }
+//                             n++;
+//                         }
+        // to find LCM
+//                           int num1 = sc.nextInt();
+//                           int num2 = sc.nextInt();
+//                           int lcm = (num1 > num2) ? num1 : num2;
+//                           while(true){
+//                               if(lcm % num1 == 0 && lcm % num2 == 0)
+//                               {
+//                                   System.out.println(lcm);
+//                                   break;
+//                               }
+//                               lcm++;
+//                           }
+
+//   conditional statement
+//                              System.out.println("Enter a letter : ");
+//                              char ch = sc.next().charAt(0);
+//                              if(ch >= 'a' && ch <= 'z') {
+//                                  if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+//                                      System.out.println( ch  + " vowel " );
+//                                  } else if (ch != 'a' || ch != 'e' || ch != 'i' || ch != 'o' || ch != 'u') {
+//                                      System.out.println( ch + " consonant " );
+//                                  } else {
+//                                      System.out.println("Not an alphabets");
+//                                  }
+//                              }
+
+//  switch statement
+//        System.out.println("Enter a string: ");
+//        String M = sc.nextLine();
+//        switch(M) {
+//            case "rock":
+//                System.out.println( " Rock beats scissor " + M);
+//                break;
+//            case "scissors":
+//                System.out.println( " Scissors beats paper " + M);
+//                break;
+//
+//            case "paper":
+//                System.out.println( " paper beats rock " + M);
+//                break;
+//
+//            default:
+//                System.out.println("Invalid case");
+//        }
+//    }
+//}
