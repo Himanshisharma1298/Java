@@ -1,0 +1,124 @@
+//import java.util.Scanner;
+//public class loop {
+//    public static void main(String[] arg){
+//        Scanner sc = new Scanner(System.in);
+
+//  N natural number
+//        System.out.println("Enter Number : ");
+//        int n = sc.nextInt();
+//        int i = 1;
+//        while (i < n){
+//            System.out.println(i);
+//            i++;
+//        }
+
+//  reverse N number
+//        System.out.println("Enter Number : ");
+//        int n = sc.nextInt();
+//        while(n > 0){
+//            System.out.println(n);
+//            n--;
+//        }
+
+//  print Alphabets
+//          char i = 65;
+//          while(i < 90){
+//              System.out.println(i);
+//              i++;
+//          }
+
+//  even number
+//            int n = sc.nextInt();
+//            int i = 1;
+//            while(i <= n){
+//                if(i % 2 == 0){
+//                    System.out.println(i);
+//                }
+//                i++;
+//            }
+
+//  odd number
+//              int n = sc.nextInt();
+//              int i = 1;
+//              while(i <= n){
+//                  if(i % 2 != 0){
+//                      System.out.println(i);
+//                  }
+//                  i++;
+//              }
+
+//  sum of natural number
+//               int n = sc.nextInt();
+//               int sum = 0;
+//               for(int i = 1; i <= n; i++){
+//                   sum += i;
+//               }
+//               System.out.println(sum);
+
+//  sum of even number
+//                int n = sc.nextInt();
+//                int i = 1;
+//                int sum = 0;
+//                while(i <= n){
+//                    if(i % 2 == 0) {
+//                        sum += i;
+//                    }
+//                    i++;
+//                }
+//                System.out.println(sum);
+
+//  sum of odd number
+//                  int n = sc.nextInt();
+//                  int i = 1;
+//                  int sum = 0;
+//                  while(i <= n){
+//                      if (i % 2 != 0){
+//                          sum += i;
+//                      }
+//                      i++;
+//                  }
+//                  System.out.println(sum);
+
+//  multiplication table
+//                    int n = sc.nextInt();
+//                    for ( int i = 1; i <= 10; i++ ){
+//                        System.out.println(n + "*" + i + "=" + n * i);
+//                    }
+
+//  count number in a digit
+//                      int n = sc.nextInt();
+//                      int temp;
+//                      int count = 0;
+//                      while(n > 0){
+//                          temp = n % 10;
+//                          count++;
+//                          n = n / 10;
+//                      }
+//                      System.out.println(count);
+
+//  find first and last digit of a number
+//                       System.out.print("Enter a number: ");
+//                       int n = sc.nextInt();
+//                       int lastDigit = n % 10;  // Get last digit
+//                       int firstDigit = n;
+//                       while (firstDigit >= 10) {
+//                            firstDigit /= 10;   // Remove last digit until one digit remains
+//                       }
+//                       System.out.println("First digit: " + firstDigit);
+//                       System.out.println("Last digit: " + lastDigit);
+
+//  find the sum of first and last digit number
+//                        System.out.println("Enter a number : ");
+//                        int n = sc.nextInt();
+//                        int sum = 0;
+//                        int lastDigit = n % 10;
+//                        int firstDigit = n;
+//                        while(firstDigit >= 10){
+//                            firstDigit /= 10;
+//                        }
+//                        System.out.println("First digit: " + firstDigit);
+//                        System.out.println("Last digit: " + lastDigit);
+//                        sum = firstDigit + lastDigit;
+//                        System.out.println(sum);
+//    }
+//}
